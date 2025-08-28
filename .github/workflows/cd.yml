@@ -29,4 +29,4 @@ jobs:
         uses: 'google-github-actions/setup-gcloud@v3'
 
       - name: Upload image to Google Cloud
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-470417/notely-ar-repo/notely
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-470417/notely-ar-repo/notely .
